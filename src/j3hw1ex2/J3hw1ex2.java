@@ -17,13 +17,7 @@ public class J3hw1ex2{
             System.out.print(mas[i]);
         }
         System.out.println();
-        J3hw1ex2.convert(mas);
-        /*
-        ArrayList<String> myList= new ArrayList <String>();
-        myList.add(mas[0]);
-        String s=myList.get(0);
-        System.out.println(s);
-        */
+        J3hw1ex2.convert(mas);     
     }
     public static void convert( String[] ar){
         ArrayList<String> myList= new ArrayList <String>();
